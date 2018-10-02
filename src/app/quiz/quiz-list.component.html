@@ -1,3 +1,10 @@
-<p>
-  quiz-list works!
-</p>
+<h2>My Quizes</h2>
+
+<ul class="quizes">
+  <li *ngFor="let quiz of quizes">
+   <a> <!-- routerLink="/detail/{{hero.id}}"-->
+      <span class="badge">{{quiz.Id}}</span> {{quiz.Title}} - {{quiz.Description}}
+    </a>
+    <button class="delete" title="delete hero">x</button>
+  </li>
+</ul>

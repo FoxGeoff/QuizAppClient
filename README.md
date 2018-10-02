@@ -68,3 +68,14 @@ ng g c quiz/quiz-list --flat --dry-run
 ```
 * Add routes to app-routing.module
 * Test Run: " quiz-list works! "
+
+## Check: Display Simulated data (service)
+
+* Add: Quiz Service
+```
+ng g service shared/Quiz --dry-run
+```
+*Add: MessageService
+```
+ng g service shared/Message --dry-run
+```
